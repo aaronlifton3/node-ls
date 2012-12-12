@@ -1,0 +1,16 @@
+{
+  "author": "Aaron Lifton",
+  "name": "metaproto",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect-assets":"*",
+    "livescript":"*",
+    "prelude-ls":"*",
+    "mongodb":"*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
