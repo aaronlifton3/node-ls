@@ -20,7 +20,7 @@ BSON = mongo.pure().BSON
 #  client.collection('test_insert', test)
 
 mongoClient = mongo.MongoClient
-mongoClient.connect "mongodb://flubba:hl2dmisfun@linus.mongohq.com:10014/testdb",
+mongoClient.connect "mongodb://XXX:XXX@linus.mongohq.com:10014/testdb",
   !(err, db) ->
     assert.equal null err
     assert.ok db != null

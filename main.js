@@ -5,7 +5,7 @@ mongo = require('mongodb');
 assert = require('assert');
 BSON = mongo.pure().BSON;
 mongoClient = mongo.MongoClient;
-mongoClient.connect("mongodb://flubba:hl2dmisfun@linus.mongohq.com:10014/testdb", function(err, db){
+mongoClient.connect("mongodb://XXX:XXX@linus.mongohq.com:10014/testdb", function(err, db){
   assert.equal(null, err);
   assert.ok(db !== null);
   db.collection("testcollection").update({
