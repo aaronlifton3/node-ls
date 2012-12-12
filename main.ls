@@ -29,13 +29,7 @@ mongoClient.connect "mongodb://XXX:XXX@linus.mongohq.com:10014/testdb",
       assert.equal null err
       assert.equal 1 result
       db.close()
-      #test.done()
 
-
-#client = new mongo.Db('testdb', mongoserver, {w: 1})
-
-#client.open !(err, p_client) ->
-#  client.collection('test_insert', test)
 class C
   ->
     @items = []
