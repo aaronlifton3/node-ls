@@ -1,4 +1,4 @@
-metaprotonode-ls
+node-ls
 ================
 
-livescript node hackery
+Node.js using [Livescript](http://livescript.net/)
